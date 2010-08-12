@@ -1,0 +1,45 @@
+README
+
+Resident Pancake
+
+A quite amazing and highly entertaining video game for good feelings
+for end-user ultra mega gaming experience.  Oh, did we mention it's
+not actually finished?  Don't mind that.  It's a feature.
+
+By:
+	Jarrett Billingsly
+	Chris Brack
+	Adam Modlin
+
+To run this application, run the respancake.exe file.
+
+If you encounter any problems, please visit the Pitt Geeks forums and
+feel free to ask any questions.  http://forums.pittgeeks.org
+
+CONTROLS
+
+- Use the mouse to aim
+- WASD will move you up, left, down, right respectively
+- Moving with W doesn't move you towards the cursor
+- 1,2,3 changes weapons between Knife, Glock, and Flamethrower
+
+Watch out for Aunt Jemima, she wishes to consume your soul!!11eleven11one
+
+COMPILING
+
+This game was written in the D programming language, available from
+http://www.digitalmars.com/d/.  You can get either the DMD compiler (Windows
+and Linux) or the GDC compiler (works with GCC toolkit so works anywhere).
+You'll also need to get Derelict (http://www.dsource.org/projects/derelict)
+and Build (http://www.dsource.org/projects/build).  If you're not on
+Windows, you'll have to make sure SDL is installed (www.libsdl.org).  Once
+you have everything set up, just go into the ResPancake folder and
+type
+
+build -I/path/to/derelict/files respancake
+
+on the command line.  (You can see an example command line in compile.bat.)
+
+Note that OSX with Intel Macs has some issues with SDL.  Derelict isn't
+the only SDL library that has issues with it; pygame doesn't work either.
+So get a better operating system.  LOL

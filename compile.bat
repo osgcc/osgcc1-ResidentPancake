@@ -1,0 +1,1 @@
+@build -clean -IC:\dmd\src\ext respancake -debug -g
